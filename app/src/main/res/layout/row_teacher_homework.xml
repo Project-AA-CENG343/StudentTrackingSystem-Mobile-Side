@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:elevation="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="@drawable/gradient_background">
+
+
+        <TextView
+            android:id="@+id/homework_title"
+            android:layout_width="wrap_content"
+            android:layout_weight="100"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/blue_round_background"
+            android:elevation="5dp"
+            android:gravity="left|center"
+            android:paddingLeft="16dp"
+            android:text="Hw name"
+            android:textSize="17sp"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/edit_icon_button"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/gray_round_background"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:src="@drawable/baseline_edit_24"
+            android:textColor="@color/white" />
+
+        <ImageButton
+            android:id="@+id/delete_icon_button"
+            android:layout_width="41dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/gray_round_background"
+            android:elevation="10dp"
+            android:src="@drawable/baseline_remove_circle_outline_24" />
+
+
+    </LinearLayout>
+</LinearLayout>

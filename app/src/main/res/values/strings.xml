@@ -1,0 +1,119 @@
+<resources>
+    <string name="ad_soyad">Ad Soyad:</string>
+    <string name="fatih_yilmaz">Fatih Yılmaz</string>
+    <string name="student_classroom">Sınıf:</string>
+    <string name="student_classroom_info">9-B</string>
+    <string name="student_school_number">Okul No:</string>
+    <string name="student_school_number_info">21</string>
+
+    <string name="app_name">Your App Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="Homeworks">
+
+        <item>Homework Name 1</item>
+        <item>Homework Name 2</item>
+        <item>Tekerleme Yaz</item>
+        <item>Homework Name 4</item>
+        <item>Homework Name 5</item>
+        <item>Homework Name 6</item>
+        <item>Homework Name 7</item>
+
+    </string-array>
+
+    <string-array name="Homeworks_info">
+
+        <item>Homework Name 1 yap</item>
+        <item>Homework Name 2 yap</item>
+        <item>Tekerleme Yaz</item>
+        <item>Homework Name 4 yap</item>
+        <item>Homework Name 5 yap</item>
+        <item>Homework Name 6 yap</item>
+        <item>Homework Name 7 yap</item>
+
+    </string-array>
+
+    <string-array name="ClassroomHomeworks">
+
+        <item>Homework Name 1</item>
+        <item>Homework Name 2</item>
+        <item>Homework Name 3</item>
+        <item>Homework Name 4</item>
+        <item>Homework Name 5</item>
+        <item>Homework Name 6</item>
+        <item>Homework Name 7</item>
+
+    </string-array>
+
+    <string-array name="ClassroomHomeworks_info">
+
+        <item>Homework Name 1 yap</item>
+        <item>Homework Name 2 yap</item>
+        <item>Homework Name 3 yap</item>
+        <item>Homework Name 4 yap</item>
+        <item>Homework Name 5 yap</item>
+        <item>Homework Name 6 yap</item>
+        <item>Homework Name 7 yap</item>
+
+    </string-array>
+
+
+    <string-array name="Announcements">
+
+        <item>Announcement Name 1</item>
+        <item>Announcement Name 2</item>
+        <item>Announcement Name 3</item>
+        <item>Announcement Name 4</item>
+        <item>Announcement Name 5</item>
+        <item>Announcement Name 6</item>
+        <item>Announcement Name 7</item>
+
+
+    </string-array>
+
+    <string-array name="ClassroomAnnouncements">
+
+        <item>Announcement Name 1</item>
+        <item>Announcement Name 2</item>
+        <item>Announcement Name 3</item>
+        <item>Announcement Name 4</item>
+        <item>Announcement Name 5</item>
+        <item>Announcement Name 6</item>
+        <item>Announcement Name 7</item>
+
+
+    </string-array>
+
+    <string-array name="Students">
+
+        <item>Ahmet   123123</item>
+        <item>Mehmet   12312</item>
+        <item>Ali   231312 </item>
+        <item>Hasan   32131</item>
+        <item>Osman</item>
+        <item>Ahmet</item>
+        <item>Mehmet</item>
+        <item>Ali</item>
+        <item>Hasan</item>
+        <item>Osman</item>
+        <item>Ahmet</item>
+        <item>Mehmet</item>
+        <item>Ali</item>
+        <item>Hasan</item>
+        <item>Osman</item>
+        <item>Ahmet</item>
+        <item>Mehmet</item>
+        <item>Ali</item>
+        <item>Hasan</item>
+        <item>Osman</item>
+
+
+
+    </string-array>
+
+
+</resources>

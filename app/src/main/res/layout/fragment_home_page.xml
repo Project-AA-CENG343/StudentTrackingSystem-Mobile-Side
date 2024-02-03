@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomePageFragment">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_imageSlider"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        app:cardBackgroundColor="#7278AD"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.denzcoskun.imageslider.ImageSlider
+            android:id="@+id/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:iss_corner_radius="20"
+            app:iss_delay="1000"
+            app:iss_period="1000"
+            app:iss_text_align="CENTER"
+            app:iss_title_background="@drawable/default_gradient" />
+    </androidx.cardview.widget.CardView>
+
+
+    <FrameLayout
+        android:id="@+id/announcement_container"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="96dp"
+        app:layout_constraintEnd_toEndOf="@+id/cardView_imageSlider"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="@+id/cardView_imageSlider"
+        app:layout_constraintTop_toBottomOf="@+id/cardView_imageSlider" >
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/responselayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:elevation="1000dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="446dp">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="165dp"
+            android:layout_height="168dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo" />
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

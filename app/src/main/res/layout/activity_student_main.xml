@@ -1,0 +1,158 @@
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/DrawerLayout_window_field"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activities.StudentMainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/LinearLayout_activity_controller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/FrameLayout_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/logo"
+                android:layout_gravity="center"
+                android:layout_marginTop="300dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/NavigationView_menu"
+        android:layout_gravity="start"
+        android:background="@drawable/background"
+
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_marginTop="80dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+                <ImageView
+                    android:id="@+id/ImageView_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/logo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.063"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ImageView_logo"
+                >
+
+                    <ImageView
+                        android:id="@+id/ImageView_person_photo"
+                        android:layout_width="128px"
+                        android:layout_height="128px"
+                        android:src="@drawable/baseline_person_outline_24"
+                        app:layout_constraintEnd_toStartOf="@id/Space_space"
+                        app:layout_constraintHorizontal_chainStyle="packed"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Space
+                        android:id="@+id/Space_space"
+                        android:layout_width="25dp"
+                        android:layout_height="10dp"
+                        app:layout_constraintStart_toEndOf="@id/ImageView_person_photo"
+                        app:layout_constraintEnd_toStartOf="@id/TextView_student_name_surname"
+                        app:layout_constraintTop_toTopOf="parent"
+                    />
+                    <TextView
+                        android:id="@+id/TextView_student_name_surname"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text="Mete Ahmet Yakar Mete Ahmet Yakar Mete Ahmet Yakar Mete Ahmet Yakar Mete Ahmet Yakar Mete Ahmet Yakar"
+                        android:textSize="20sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@id/Space_space"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/TextView_home_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ana Sayfa"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/lavender"
+                android:drawableLeft="@drawable/baseline_home_24"
+                android:drawablePadding="5dp"/>
+
+
+            <TextView
+                android:id="@+id/TextView_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Profil"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="5dp"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/lavender" />
+
+            <TextView
+                android:id="@+id/TextView_notifications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tercihler"
+                android:drawableLeft="@drawable/baseline_flag_24"
+                android:drawablePadding="5dp"
+                android:padding="10dp"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/lavender" />
+
+
+
+
+        </LinearLayout>
+
+    </com.google.android.material.navigation.NavigationView>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
